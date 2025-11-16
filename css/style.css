@@ -1,0 +1,144 @@
+    html {
+      scroll-behavior: smooth;
+    }
+    /* Hero backgrounds */
+    .hero-bg-1 { background-color: #f5f5f5; }
+    .hero-bg-2 { background-color: #e8f0fe; }
+
+    /* Project section */
+    .project-container { display: flex; flex-direction: column; gap: 2rem; }
+    .project-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; }
+    .project-item { background: #fff; padding: 1rem; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); max-width: 300px; }
+    .project-item img { width: 100%; border-radius: 6px; }
+    .proj-title { margin-top: 0.5rem; font-weight: bold; }
+    .proj-desc, .proj-lang { margin-top: 0.5rem; font-size: 0.9rem; }
+    .view-btn { display: inline-block; margin-top: 0.7rem; padding: 0.5rem 1rem; background-color: #3273dc; color: #fff; border-radius: 6px; text-decoration: none; font-size: 0.9rem; }
+    .view-btn:hover { background-color: #2759a5; }
+
+    /* About Me image align right */
+    .column-left { display: flex; justify-content: flex-end; align-items: center; }
+    .column-left img { max-width: 90%; border-radius: 8px; }
+    .column-right { display: flex; flex-direction: column; justify-content: center; }
+
+    footer { text-align: center; padding: 1rem 0; background-color: #f5f5f5; margin-top: 2rem; }
+
+    @media(max-width: 768px){
+      .column-left, .column-right { justify-content: center; text-align: center; }
+      .column-left img { max-width: 60%; margin-bottom: 1rem; }
+    }
+.hero-bg-1 {
+  background: linear-gradient(
+            /* góc nghiêng */
+   			#B0E2FF
+       
+  );
+}
+
+.hero-bg-2 {
+  background: linear-gradient(
+    205deg,         /* góc nghiêng */
+    #B0E2FF 75%,      /* bắt đầu xanh */
+    #B0E2FF 75%,     /* nửa trên xanh */
+    white 50%,       /* nửa dưới trắng */
+    white 50%       /* kết thúc trắng */
+  );
+}
+.skill
+{
+  margin-left:300px;
+}
+.project-card
+{
+ margin-left:80px;
+}
+.profile-card
+{
+ margin-right:600px;
+}
+/* Column ảnh căn sát sang phải */
+.column-left {
+  display: flex;
+  justify-content: flex-end; /* Đẩy ảnh sang phải */
+  align-items: center;
+}
+
+/* Column text căn sát sang trái */
+.column-right {
+  display: flex;
+  justify-content: flex-start; /* Đẩy text sang trái */
+  align-items: center;
+  flex-direction: column; /* để text nằm theo cột */
+  text-align: left;
+}
+
+.navbar-center {
+  display: flex;
+  justify-content: center; /* căn giữa horizontal */
+  gap: 30px; /* khoảng cách giữa các menu */
+  width: 100%;
+}
+
+
+/*ccccc*/
+.project-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px; /* khoảng cách giữa các hàng */
+}
+
+.project-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.project-row.justify-center {
+  justify-content: center; /* căn giữa toàn bộ row */
+}
+
+.project-item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  flex: 1 1 250px; /* đảm bảo responsive */
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* nội dung căn trái */
+  text-align: left;       /* chữ căn trái */
+}
+
+.project-item img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.proj-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.proj-desc {
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.proj-lang {
+  font-size: 0.85rem;
+  margin-bottom: 12px;
+}
+
+.view-btn {
+  background-color: #3273dc;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.view-btn:hover {
+  background-color: #2759a5;
+}

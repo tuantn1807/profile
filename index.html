@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tran Nguyen Tuan - Portfolio</title>
+
+  <!-- Bulma -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <!-- Navbar -->
+  <nav class="navbar is-transparent py-4 hero-bg-1">
+    <div class="container">
+      <div class="navbar-brand">
+        <figure class="image is-48x48 ml-4">
+          <img class="is-rounded" src="assets/nav/c4.jpg" alt="Avatar">
+        </figure>
+        <a role="button" class="navbar-burger" data-target="navMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </div>
+      <div id="navMenu" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item has-text-weight-medium" href="#hero">Home</a>
+          <a class="navbar-item has-text-weight-medium" href="#skills">Skills</a>
+          <a class="navbar-item has-text-weight-medium" href="#projects">Projects</a>
+          <a class="navbar-item has-text-weight-medium" href="#about">About</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Hero -->
+  <section id = "hero" class="hero is-fullheight-with-navbar is-flex is-justify-content-center is-align-items-center hero-bg-2">
+    <div class="has-text-centered">
+      <h1 class="title is-2 has-text-weight-bold">
+        I'm Tran Nguyen Tuan - Software Engineer Student
+      </h1>
+
+      <p class="subtitle is-5 mb-5">
+     My goal is becoming a skilled software engineer capable of building reliable, user-focused applications. 
+      </p>
+
+      <div class="buttons is-centered mb-6">
+        <a class="button is-light is-rounded" href="https://www.facebook.com/tuantn1807/"><i class="fab fa-facebook"></i></a>
+        <a class="button is-light is-rounded" href="https://github.com/tuantn1807"><i class="fab fa-github"></i></a>
+      </div>
+
+     <a class="button is-link is-rounded px-5 py-4" href="#projects">Explore More</a>
+
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <br><br>
+  <p id="skills" class="is-size-3 has-text-weight-bold has-text-centered">My Skills</p>
+
+  <div class="columns skill is-multiline mt-5 container">
+
+    <!-- Language -->
+    <div class="column is-one-third">
+      <p class="title is-5 mb-3">Programming Languages</p>
+      <ul>
+        <li class="mb-2">
+          <img class="is-rounded mr-2" src="assets/skills/languages/java.png" style="width:24px;height:24px;"> Java
+        </li>
+        <li class="mb-2">
+          <img class="is-rounded mr-2" src="assets/skills/languages/dart.jpg" style="width:24px;height:24px;"> Dart
+        </li>
+        <li class="mb-2">
+          <img class="is-rounded mr-2" src="assets/skills/languages/python.png" style="width:24px;height:24px;"> Python
+        </li>
+        <li class="mb-2">
+          <img class="is-rounded mr-2" src="assets/skills/languages/laravel.jpg" style="width:24px;height:24px;"> PHP (Laravel)
+        </li>
+      </ul>
+    </div>
+
+    <!-- Databases -->
+    <div class="column is-one-third">
+      <p class="title is-5 mb-3">Databases</p>
+      <ul>
+        <li class="mb-2 is-flex">
+          <img class="is-rounded mr-2" src="assets/skills/databases/mysql.png" style="width:24px;height:24px;"> MySQL
+        </li>
+        <li class="mb-2 is-flex">
+          <img class="is-rounded mr-2" src="assets/skills/databases/firebase.png" style="width:24px;height:24px;"> Firebase
+        </li>
+        <li class="mb-2 is-flex">
+          <img class="is-rounded mr-2" src="assets/skills/databases/mongodb.svg" style="width:24px;height:24px;"> MongoDB
+        </li>
+      </ul>
+    </div>
+
+    <!-- Workflow -->
+    <div class="column is-one-third">
+      <p class="title is-5 mb-3">Tools & Workflow</p>
+      <ul>
+        <li class="mb-2">
+          <img class="is-rounded mr-2" src="assets/skills/workflows/n8n.png" style="width:24px;height:24px;"> N8N Automation
+        </li>
+      </ul>
+    </div>
+
+  </div>
+     <p class="is-size-3 has-text-weight-bold has-text-centered">My Project</p>
+<section id="projects" class="section project-section">
+
+  <div class="project-container">
+
+    <!-- Row 1: 3 items, căn giữa -->
+    <div class="project-row justify-center">
+      <div class="project-item">
+        <img src="assets/projects/tbshop.jpg" alt="">
+        <br>
+        <h3 class="proj-title">E-commerce Mobile Application</h3>
+        <p class="proj-desc">
+          <br>
+          A cross-platform mobile app for electronic product trading with login, catalog browsing, and order tracking.
+        </p>
+        <p class="proj-lang"><strong>Languages:</strong> Dart and Python. <br><strong>Workflow:</strong> N8N</p>
+        <a href="https://github.com/tuantn1807/tbshop" target="_blank" class="view-btn">View Source</a>
+      </div>
+
+      <div class="project-item">
+        <img src="assets/projects/saleshop_desktop.jpg" alt="">
+        <br>
+        <h3 class="proj-title">Grocery Shop Desktop Application</h3>
+        <p class="proj-desc">
+          A desktop software solution that supports grocery store management, including product inventory, order processing.
+        </p>
+        <p class="proj-lang"><strong>Languages:</strong> JavaFX</p><br>
+        <a href="https://github.com/tuantn1807/saleshop" target="_blank" class="view-btn">View Source</a>
+      </div>
+
+      <div class="project-item">
+        <img src="assets/projects/enrollment.jpg" alt="">
+        <h3 class="proj-title">Grade 10 Enrollment <br>Management System</h3>
+        <p class="proj-desc">
+          A desktop application to assist schools in managing student enrollment, score input, candidate ranking, and final admission results.
+        </p>
+        <p class="proj-lang"><strong>Languages:</strong> Python</p>
+        <a href="https://github.com/tuantn1807/enroll_10" target="_blank" class="view-btn">View Source</a>
+      </div>
+    </div>
+
+    <!-- Row 2: 2 items, căn giữa -->
+    <div class="project-row justify-center">
+      <div class="project-item">
+        <img src="assets/projects/math_game.jpg" alt="">
+        <h3 class="proj-title">Math Game Competition</h3>
+        <p class="proj-desc">
+          A multiplayer client–server math competition game with real-time scoring, synchronized gameplay, and a live leaderboard.
+        </p>
+        <p class="proj-lang"><strong>Languages:</strong> Java</p>
+        <a href="https://github.com/tuantn1807/mathgame" target="_blank" class="view-btn">View Source</a>
+      </div>
+
+      <div class="project-item">
+        <img src="assets/projects/manage_employee.png" alt="">
+        <br><h3 class="proj-title">HR Management Website</h3>
+        <p class="proj-desc">
+          A web dashboard for managing employees, roles, and departments using a clean UI.
+        </p>
+        <p class="proj-lang"><strong><br>Languages:</strong> Vue 3, Python(FastAPI)</p>
+        <a href="https://github.com/tuantn1807/manage_salary" target="_blank" class="view-btn">View Source</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+  <!-- About Me -->
+<div id = "about" class="columns container mb-6">
+
+  <!-- Column ảnh bên trái -->
+  <div class="column is-half has-text-centered column-left">
+    <img src="assets/profile/profile.PNG" class="image is-8by3">
+  </div>
+
+  <!-- Column About Me bên phải -->
+  <div class="column is-half column-right">
+    
+    <p class="title is-5 mb-3">About Me</p>
+    
+    <p>
+    My name is Tran Nguyen Tuan, born in 2004, currently studying Information Technology 
+(Software Engineering) at the Vietnam-Korea University of Information and Communication Technology. 
+I am a motivated software engineering student with hands-on experience in building mobile 
+and web applications. I'm seeking opportunities to apply and expand my technical skills in a professional environment.
+<br>If you want to contact me, use one of these below:
+<br>Gmail: trannguyentuan1807@gmail.com 
+<br>Telephone: 0911103885 
+<br>Address: Ngu Hanh Son, Da Nang.
+<br>Github: <a href = "https://github.com/tuantn1807">https://github.com/tuantn1807</a>
+
+    </p>
+  </div>
+
+</div>
+<div class="navbar-menu">
+  <div class="navbar-center">
+    <a class="navbar-item has-text-weight-medium">Home</a>
+    <a class="navbar-item has-text-weight-medium">Skills</a>
+    <a class="navbar-item has-text-weight-medium">Projects</a>
+    <a class="navbar-item has-text-weight-medium">About</a>
+  </div>
+</div>
+<p class = "has-text-centered">© 2025 Tran Nguyen Tuan. All rights reserved.</p>
+  <!-- Script -->
+  <script>
+    document.querySelector('.navbar-burger').addEventListener('click', () => {
+      document.querySelector('.navbar-burger').classList.toggle('is-active');
+      document.querySelector('#navMenu').classList.toggle('is-active');
+    });
+  </script>
+
+</body>
+</html>
